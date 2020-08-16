@@ -4,3 +4,7 @@
     background-position: fixed;
     height: 70vh;
 }
+img {
+    width: 100%;
+    height: 100%;
+}
