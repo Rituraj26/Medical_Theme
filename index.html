@@ -1,303 +1,662 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <link rel="shortcut icon" href="#" />
+
         <link
             rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-            integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
-            crossorigin="anonymous"
+            href="https://s3.amazonaws.com/storat-us-east/app/public/website/frontend/client/wn8xdy/main.css"
         />
-        <link rel="stylesheet" href="style.css" />
-        <title>Medical Theme</title>
     </head>
     <body>
-        <!-- ======= Hero Section ======= -->
-        <section id="hero">
-            <div
-                class="container d-flex flex-column align-items-start justify-content-center h-100 p-5"
-            >
-                <h1 class="mb-4">Welcome to Storat</h1>
-                <h4 class="mb-5">
-                    We are team of talanted designers making websites with
-                    Bootstrap
-                </h4>
-                <a
-                    href="#about"
-                    class="btn btn-primary rounded-pill px-5 scrollto"
-                    >Get Started</a
-                >
-            </div>
-        </section>
-        <!-- End Hero -->
+        <div class="page" id="app">
+            <header class="page-header">
+                <div class="navbar-v2">
+                    <nav
+                        class="navbar navbar-expand-lg navbar-top border-0 py-0"
+                    >
+                        <div class="container d-block">
+                            <div
+                                class="collapse navbar-collapse navMenu border-0 m-0 p-0"
+                            >
+                                <div
+                                    class="d-flex flex-fill flex-column flex-md-row justify-content-md-between align-items-center py-1"
+                                >
+                                    <div class="d-flex align-items-center">
+                                        <ul
+                                            class="nav list-unstyled small justify-content-center align-items-center"
+                                        >
+                                            <li class="nav-item mr-3">
+                                                <a class="navbar-link" href="#"
+                                                    ><strong>Phone:</strong>
+                                                    (201) 333-4444</a
+                                                >
+                                            </li>
+                                            <li class="nav-item mr-3">
+                                                <a class="navbar-link" href="#"
+                                                    ><strong>Email:</strong>
+                                                    help@brandname.com</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
 
-        <section id="why-us" class="why-us p-5" style="height: 600px;">
-            <div class="container h-100">
+                                    <div
+                                        class="social-links social-links-minimal mb-0"
+                                    >
+                                        <span
+                                            ><a
+                                                href="https://twitter.com/"
+                                                class="social-link social-twitter"
+                                            >
+                                                <i
+                                                    class="icon ion-social-twitter"
+                                                ></i> </a
+                                        ></span>
+                                        <span
+                                            ><a
+                                                href="https://facebook.com/"
+                                                class="social-link social-facebook"
+                                            >
+                                                <i
+                                                    class="icon ion-social-facebook"
+                                                ></i> </a
+                                        ></span>
+                                        <span
+                                            ><a
+                                                href="https://instagram.com/"
+                                                class="social-link social-instagram"
+                                            >
+                                                <i
+                                                    class="icon ion-social-instagram"
+                                                ></i> </a
+                                        ></span>
+                                        <span
+                                            ><a
+                                                href="https://youtube.com/"
+                                                class="social-link social-youtube"
+                                            >
+                                                <i
+                                                    class="icon ion-social-youtube"
+                                                ></i> </a
+                                        ></span>
+                                        <span
+                                            ><a
+                                                href="https://pinterest.com/"
+                                                class="social-link social-pinterest"
+                                            >
+                                                <i
+                                                    class="icon ion-social-pinterest"
+                                                ></i> </a
+                                        ></span>
+                                        <span
+                                            ><a
+                                                href="https://gmail.com/"
+                                                class="social-link social-mail"
+                                            >
+                                                <i
+                                                    class="icon ion-android-mail"
+                                                ></i> </a
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav
+                        class="navbar navbar-expand-lg navbar-light shadow-bottom border-top"
+                    >
+                        <div class="container">
+                            <a class="navbar-brand" href="/">
+                                <img
+                                    src="/website/content-blocks/logos/logo-12.svg"
+                                    height="50"
+                                />
+                            </a>
+                            <button
+                                class="navbar-toggler ml-auto"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target=".navMenu"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-bar"></span>
+                                <span class="navbar-toggler-bar"></span>
+                                <span class="navbar-toggler-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse navMenu">
+                                <div
+                                    class="dropdown-v1 ml-auto small font-weight-bolder"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/"
+                                                >Home</a
+                                            >
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link dropdown-toggle"
+                                                href="#"
+                                                id="navbarDropdown_1403"
+                                                role="button"
+                                                data-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                Services
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarDropdown_1403"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="/service-1"
+                                                        >Service #1</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="/service-2"
+                                                        >Service #2</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="/service-3"
+                                                        >Service #3</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/about"
+                                                >About</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/contact"
+                                                >Contact</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <section class="page-main">
+                <!-- Hero Section -->
+
                 <div
-                    class="row justify-content-center align-items-center h-100"
+                    class="container-fw overlay-light-40 text-black py-md-7"
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1557825835-a526494be845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+                    "
                 >
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <div
-                                class="card-body d-flex flex-column justify-content-between align-items-center p-4 bg-primary text-white"
-                            >
-                                <h2 class="card-title">
-                                    Why Choose Medilab?
-                                </h2>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Duis aute irure dolor in reprehenderit
-                                    Asperiores dolores sed et. Tenetur quia eos.
-                                    Autem tempore quibusdam vel necessitatibus
-                                    optio ad corporis.
-                                </p>
-                                <a
-                                    href="#"
-                                    class="btn btn-primary align-self-center"
-                                    >Learn More</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 h-50">
-                        <div class="card h-100 border-0">
-                            <div
-                                class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-card-text text-primary"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
-                                    />
-                                </svg>
-                                <h5 class="card-title">
-                                    Corporis voluptates sit
-                                </h5>
-                                <p class="card-text text-muted">
-                                    Consequuntur sunt aut quasi enim aliquam
-                                    harum
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 h-50">
-                        <div class="card h-100 border-0">
-                            <div
-                                class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-box text-primary"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"
-                                    />
-                                </svg>
-                                <h5 class="card-title">
-                                    Corporis voluptates sit
-                                </h5>
-                                <p class="card-text text-muted">
-                                    Consequuntur sunt aut quasi enim aliquam
-                                    harum
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 h-50">
-                        <div class="card h-100 border-0">
-                            <div
-                                class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-images text-primary"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M12.002 4h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10z"
-                                    />
-                                    <path
-                                        d="M10.648 8.646a.5.5 0 0 1 .577-.093l1.777 1.947V14h-12v-1l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z"
-                                    />
-                                </svg>
-                                <h5 class="card-title">
-                                    Corporis voluptates sit
-                                </h5>
-                                <p class="card-text text-muted">
-                                    Consequuntur sunt aut quasi enim aliquam
-                                    harum
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End Why Us Section -->
-
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about" style="height: 600px;">
-            <div class="container-fluid h-100 p-0">
-                <div class="row h-100">
-                    <div class="col-md-5 mr-5">
-                        <img
-                            src="./resources/aboutUs.jpg"
-                            alt="About Us Photo"
-                        />
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="mb-3">
-                            Enim quis est voluptatibus aliquid consequatur
-                            fugiat
-                        </h2>
-                        <p class="mb-5">
-                            Esse voluptas cumque vl exercitationem. Reiciendis
-                            est hic accusamus. Non ipsam et sed minima
-                            temporibus laudantium. Soluta voluptate sed facere
-                            corporis dolores excepturi. Libero laboriosam sint
-                            et id nulla tenetur. Suscipit aut voluptate.
-                        </p>
-                        <div class="row mb-4">
-                            <div
-                                class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                style="width: 65px; height: 65px;"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-file-earmark-medical"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"
-                                    />
-                                    <path
-                                        d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M7 4a.5.5 0 0 1 .5.5v.634l.549-.317a.5.5 0 1 1 .5.866L8 6l.549.317a.5.5 0 1 1-.5.866L7.5 6.866V7.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L6 6l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V4.5A.5.5 0 0 1 7 4zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="col-md-10">
-                                <h5>Lorem Ipsum</h5>
-                                <p>
-                                    Voluptatum deleniti atque corrupti quos
-                                    dolores et quas molestias excepturi sint
-                                    occaecati cupiditate non provident
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div
-                                class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                style="width: 65px; height: 65px;"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-archive"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M2 5v7.5c0 .864.642 1.5 1.357 1.5h9.286c.715 0 1.357-.636 1.357-1.5V5h1v7.5c0 1.345-1.021 2.5-2.357 2.5H3.357C2.021 15 1 13.845 1 12.5V5h1z"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M5.5 7.5A.5.5 0 0 1 6 7h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zM15 2H1v2h14V2zM1 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="col-md-10">
-                                <h5>Lorem Ipsum</h5>
-                                <p>
-                                    Voluptatum deleniti atque corrupti quos
-                                    dolores et quas molestias excepturi sint
-                                    occaecati cupiditate non provident
-                                </p>
-                            </div>
-                        </div>
+                    <div class="container">
                         <div class="row">
-                            <div
-                                class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                style="width: 65px; height: 65px;"
-                            >
-                                <svg
-                                    width="2em"
-                                    height="2em"
-                                    viewBox="0 0 16 16"
-                                    class="bi bi-bar-chart-line"
-                                    fill="currentColor"
-                                    xmlns="http://www.w3.org/2000/svg"
+                            <div class="col-md-6">
+                                <p class="text-uppercase letter-spacing-3">
+                                    Semantics, a large language ocean.
+                                </p>
+                                <h1
+                                    class="size-50 letter-spacing-2 font-weight-bold"
                                 >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5h-2v12h2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M0 14.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="col-md-10">
-                                <h5>Lorem Ipsum</h5>
-                                <p>
-                                    Voluptatum deleniti atque corrupti quos
-                                    dolores et quas molestias excepturi sint
-                                    occaecati cupiditate non provident
+                                    They live in Bookmarksgrove right at the
+                                    coast.
+                                </h1>
+                                <p class="mb-0 mt-5">
+                                    <span
+                                        ><a
+                                            href="#"
+                                            class="btn btn-outline-black"
+                                            >Order Now!</a
+                                        ></span
+                                    >
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End About Section -->
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-            crossorigin="anonymous"
-        ></script>
+                <!-- End Hero -->
+
+                <!-- Why Us Section -->
+
+                <div class="container-fw">
+                    <div class="container">
+                        <div
+                            class="row justify-content-center align-items-center"
+                        >
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-between align-items-center p-4 bg-primary text-white"
+                                    >
+                                        <h2 class="card-title">
+                                            Why Choose Medilab?
+                                        </h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit, sed do
+                                            eiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Duis aute
+                                            irure dolor in reprehenderit
+                                            Asperiores dolores sed et. Tenetur
+                                            quia eos. Autem tempore quibusdam
+                                            vel necessitatibus optio ad
+                                            corporis.
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-light rounded-pill px-5 align-self-center"
+                                            >Learn More</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card border-0">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-card-text text-primary"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+                                            />
+                                        </svg>
+                                        <h5 class="card-title">
+                                            Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text text-muted">
+                                            Consequuntur sunt aut quasi enim
+                                            aliquam harum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 h-50">
+                                <div class="card h-100 border-0">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-box text-primary"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"
+                                            />
+                                        </svg>
+                                        <h5 class="card-title">
+                                            Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text text-muted">
+                                            Consequuntur sunt aut quasi enim
+                                            aliquam harum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 h-50">
+                                <div class="card h-100 border-0">
+                                    <div
+                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-images text-primary"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M12.002 4h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10z"
+                                            />
+                                            <path
+                                                d="M10.648 8.646a.5.5 0 0 1 .577-.093l1.777 1.947V14h-12v-1l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z"
+                                            />
+                                        </svg>
+                                        <h5 class="card-title">
+                                            Corporis voluptates sit
+                                        </h5>
+                                        <p class="card-text text-muted">
+                                            Consequuntur sunt aut quasi enim
+                                            aliquam harum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Why Us Section -->
+
+                <!-- ======= About Section ======= -->
+
+                <div id="about" class="about" style="height: 700px;">
+                    <div class="container-fluid h-100 p-0">
+                        <div class="row h-100">
+                            <div class="col-md-5 mr-5">
+                                <img
+                                    src="./resources/aboutUs.jpg"
+                                    alt="About Us Photo"
+                                    class="h-100 w-100"
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="mb-3">
+                                    Enim quis est voluptatibus aliquid
+                                    consequatur fugiat
+                                </h2>
+                                <p class="mb-5">
+                                    Esse voluptas cumque vl exercitationem.
+                                    Reiciendis est hic accusamus. Non ipsam et
+                                    sed minima temporibus laudantium. Soluta
+                                    voluptate sed facere corporis dolores
+                                    excepturi. Libero laboriosam sint et id
+                                    nulla tenetur. Suscipit aut voluptate.
+                                </p>
+                                <div class="row mb-4">
+                                    <div
+                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
+                                        style="width: 65px; height: 65px;"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-file-earmark-medical"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"
+                                            />
+                                            <path
+                                                d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M7 4a.5.5 0 0 1 .5.5v.634l.549-.317a.5.5 0 1 1 .5.866L8 6l.549.317a.5.5 0 1 1-.5.866L7.5 6.866V7.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L6 6l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V4.5A.5.5 0 0 1 7 4zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Lorem Ipsum</h5>
+                                        <p>
+                                            Voluptatum deleniti atque corrupti
+                                            quos dolores et quas molestias
+                                            excepturi sint occaecati cupiditate
+                                            non provident
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div
+                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
+                                        style="width: 65px; height: 65px;"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-archive"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M2 5v7.5c0 .864.642 1.5 1.357 1.5h9.286c.715 0 1.357-.636 1.357-1.5V5h1v7.5c0 1.345-1.021 2.5-2.357 2.5H3.357C2.021 15 1 13.845 1 12.5V5h1z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M5.5 7.5A.5.5 0 0 1 6 7h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zM15 2H1v2h14V2zM1 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Lorem Ipsum</h5>
+                                        <p>
+                                            Voluptatum deleniti atque corrupti
+                                            quos dolores et quas molestias
+                                            excepturi sint occaecati cupiditate
+                                            non provident
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div
+                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
+                                        style="width: 65px; height: 65px;"
+                                    >
+                                        <svg
+                                            width="2em"
+                                            height="2em"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-bar-chart-line"
+                                            fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5h-2v12h2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
+                                            />
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M0 14.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Lorem Ipsum</h5>
+                                        <p>
+                                            Voluptatum deleniti atque corrupti
+                                            quos dolores et quas molestias
+                                            excepturi sint occaecati cupiditate
+                                            non provident
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Section End -->
+
+                <div id="counts" class="counts bg-primary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="count-box">
+                                    <i class="icofont-doctor-alt"></i>
+                                    <span data-toggle="counter-up">85</span>
+                                    <p>Doctors</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                                <div class="count-box">
+                                    <i class="icofont-patient-bed"></i>
+                                    <span data-toggle="counter-up">18</span>
+                                    <p>Departments</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                                <div class="count-box">
+                                    <i class="icofont-laboratory"></i>
+                                    <span data-toggle="counter-up">8</span>
+                                    <p>Research Labs</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                                <div class="count-box">
+                                    <i class="icofont-award"></i>
+                                    <span data-toggle="counter-up">150</span>
+                                    <p>Awards</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======= Footer Section ======= -->
+
+            <footer class="page-footer">
+                <div class="container-fw bg-light mt-6 py-0">
+                    <div class="footer-content py-6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <a href="/" class="footer-logo">
+                                        <img
+                                            src="/website/content-blocks/logos/logo-12.svg"
+                                            height="50"
+                                        />
+                                    </a>
+                                    <p class="mt-3">
+                                        Far far away, behind the word mountains,
+                                        far from the countries Vokalia and
+                                        Consonantia, there live the blind texts.
+                                    </p>
+                                    <p>
+                                        Separated they live in Bookmarksgrove
+                                        right at the coast of the Semantics, a
+                                        large language ocean.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-sm-8 mb-4 mb-sm-0">
+                                    <div class="d-flex">
+                                        <i
+                                            class="icon ion-map size-24 lh-sm mr-3"
+                                        ></i>
+                                        <p>
+                                            1234 Bookmarksgrove, Near Semantics
+                                            Point, IL 534234.
+                                        </p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <i
+                                            class="icon ion-ios-telephone size-24 lh-sm mr-3"
+                                        ></i>
+                                        <p>(201) 333-4444</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <i
+                                            class="icon ion-email size-24 lh-sm mr-3"
+                                        ></i>
+                                        <p>help@brandname.com</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <i
+                                            class="icon ion-clock size-24 lh-sm mr-3"
+                                        ></i>
+                                        <p>
+                                            Mon - Fri:
+                                            <strong>09:00 - 21:00</strong>
+                                            <br />
+                                            Sat &amp; Sun:
+                                            <strong>Closed</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <h6
+                                        class="text-muted font-weight-bolder mb-3"
+                                    >
+                                        Quick Links
+                                    </h6>
+                                    <div class="d-flex flex-column flex-md-row">
+                                        <div class="d-flex flex-column mr-5">
+                                            <a href="#">About</a>
+                                            <a href="#">Contact</a>
+                                            <a href="#">Privacy Policy</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <a href="#">Service #1</a>
+                                            <a href="#">Service #2</a>
+                                            <a href="#">Service #3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright small border-top">
+                        <div class="container">
+                            <div
+                                class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left"
+                            >
+                                <div>
+                                    © 2020 All Rights Reserved by
+                                    <a href="/">Brand Name.</a>
+                                </div>
+                                <div class="powered-by">
+                                    Powered by
+                                    <a
+                                        href="https://www.storat.com"
+                                        target="_blank"
+                                        >Storat.com</a
+                                    >.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Footer Section End -->
+
+            <div class="modal" tabindex="-1" id="form-builder-modal">
+                <div class="modal-dialog">
+                    <form-builder
+                        v-if="formId"
+                        mode="modal"
+                        :form-id="formId"
+                    ></form-builder>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://s3.amazonaws.com/storat-us-east/app/public/website/frontend/main.js"></script>
     </body>
 </html>
