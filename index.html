@@ -19,10 +19,24 @@
             .bg-primary {
                 background-color: #1977cc !important;
             }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: 'Relaway', sans-serif;
+            }
+            body {
+                /* font-family: 'Open Sans', sans-serif; */
+                font-family: Arial, Helvetica, sans-serif;
+            }
         </style>
     </head>
     <body>
         <div class="page" id="app">
+            <!-- ======= Header Section ======= -->
+
             <header class="page-header">
                 <div class="navbar-v2">
                     <nav
@@ -204,121 +218,145 @@
                 </div>
             </header>
 
+            <!-- Header Section End -->
+
             <section class="page-main">
-                <!-- Hero Section -->
+                <!-- ======= Hero Section ======= -->
 
                 <div
-                    class="container-fw overlay-light-40 text-black py-md-7"
+                    class="container-fw pt-5"
                     style="
-                        background-image: url('https://images.unsplash.com/photo-1557825835-a526494be845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+                        background-image: url('https://source.unsplash.com/4ov6VgaiiX0');
+                        background-attachment: fixed;
+                        height: 70vh;
                     "
                 >
-                    <div class="container d-flex flex-column align-items-start">
-                        <h1
-                            class="text-uppercase letter-spacing-3 font-weight-bold"
-                        >
+                    <div
+                        class="container mt-sm-5 d-flex flex-column align-items-start"
+                    >
+                        <h1 class="text-uppercase size-32 font-weight-bold">
                             WELCOME TO STORAT
                         </h1>
-                        <h5 class="letter-spacing-2">
+                        <h5 class="letter-spacing-2 size-16">
                             We are team of talanted designers making websites
                             with Bootstrap
                         </h5>
                         <button
                             href="#"
-                            class="btn btn-primary rounded-pill text-white mt-5 px-5"
+                            class="btn btn-primary size-12 rounded-pill text-white mt-4 px-5"
                         >
                             Get Started
                         </button>
                     </div>
                 </div>
 
-                <!-- End Hero -->
+                <!-- Hero Section End -->
 
-                <!-- Why Us Section -->
+                <!-- ======= Why Us Section ======= -->
 
-                <div class="container-fw">
-                    <div class="container">
-                        <div
-                            class="row justify-content-center align-items-center"
-                        >
-                            <div class="col-md-3">
-                                <div class="card bg-primary text-white">
-                                    <div
-                                        class="card-body d-flex flex-column justify-content-between align-items-center p-4"
+                <div class="container mt-lg-n9 py-5">
+                    <div class="row justify-content-center align-items-center">
+                        <!-- Main Card -->
+                        <div class="col-lg-4">
+                            <div
+                                class="card mb-4 bg-primary text-white rounded"
+                            >
+                                <div
+                                    class="card-body d-flex flex-column justify-content-between align-items-center p-4"
+                                >
+                                    <h2
+                                        class="card-title font-weight-bold size-28"
                                     >
-                                        <h2 class="card-title">
-                                            Why Choose Medilab?
-                                        </h2>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore
-                                            et dolore magna aliqua. Duis aute
-                                            irure dolor in reprehenderit
-                                            Asperiores dolores sed et. Tenetur
-                                            quia eos. Autem tempore quibusdam
-                                            vel necessitatibus optio ad
-                                            corporis.
-                                        </p>
-                                        <a
-                                            href="#"
-                                            class="btn btn-light rounded-pill px-5 align-self-center"
-                                            >Learn More</a
+                                        Why Choose Medilab?
+                                    </h2>
+                                    <p
+                                        class="card-text size-16 lh-sm font-weight-normal mb-4"
+                                    >
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Duis aute irure dolor in
+                                        reprehenderit Asperiores dolores sed et.
+                                        Tenetur quia eos. Autem tempore
+                                        quibusdam vel necessitatibus optio ad
+                                        corporis.
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary-500 size-12 text-white rounded-pill px-5 align-self-center"
+                                        >Learn More</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sub Cards -->
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-4 border-0 rounded">
+                                        <div
+                                            class="card-body d-flex flex-column justify-content-between align-items-center text-center px-4 py-5 shadow"
                                         >
+                                            <i
+                                                class="icon ion-ios-star-outline size-38 p-0 text-primary"
+                                            ></i>
+                                            <h6
+                                                class="card-title font-weight-bolder size-21 mb-4"
+                                            >
+                                                Corporis voluptates sit
+                                            </h6>
+                                            <p
+                                                class="card-text text-muted size-14 lh-sm font-weight-normal"
+                                            >
+                                                Consequuntur sunt aut quasi enim
+                                                aliquam harum
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <div
-                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                                    >
-                                        <i
-                                            class="icon ion-ios-star-outline size-35 text-primary"
-                                        ></i>
-                                        <h5 class="card-title">
-                                            Corporis voluptates sit
-                                        </h5>
-                                        <p class="card-text text-muted">
-                                            Consequuntur sunt aut quasi enim
-                                            aliquam harum
-                                        </p>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 border-0 rounded">
+                                        <div
+                                            class="card-body d-flex flex-column justify-content-between align-items-center text-center px-4 py-5 shadow"
+                                        >
+                                            <i
+                                                class="icon ion-ios-star-outline size-38 p-0 text-primary"
+                                            ></i>
+                                            <h6
+                                                class="card-title font-weight-bolder size-21 mb-4"
+                                            >
+                                                Corporis voluptates sit
+                                            </h6>
+                                            <p
+                                                class="card-text text-muted size-14 lh-sm font-weight-normal"
+                                            >
+                                                Consequuntur sunt aut quasi enim
+                                                aliquam harum
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3 h-50">
-                                <div class="card h-100 border-0">
-                                    <div
-                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                                    >
-                                        <i
-                                            class="icon ion-ios-folder-outline size-35 text-primary"
-                                        ></i>
-                                        <h5 class="card-title">
-                                            Corporis voluptates sit
-                                        </h5>
-                                        <p class="card-text text-muted">
-                                            Consequuntur sunt aut quasi enim
-                                            aliquam harum
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 h-50">
-                                <div class="card h-100 border-0">
-                                    <div
-                                        class="card-body d-flex flex-column justify-content-between align-items-center text-center p-4 shadow"
-                                    >
-                                        <i
-                                            class="icon ion-ios-browsers-outline size-35 text-primary"
-                                        ></i>
-                                        <h5 class="card-title">
-                                            Corporis voluptates sit
-                                        </h5>
-                                        <p class="card-text text-muted">
-                                            Consequuntur sunt aut quasi enim
-                                            aliquam harum
-                                        </p>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 border-0 rounded">
+                                        <div
+                                            class="card-body d-flex flex-column justify-content-between align-items-center text-center px-4 py-5 shadow"
+                                        >
+                                            <i
+                                                class="icon ion-ios-star-outline size-38 p-0 text-primary"
+                                            ></i>
+                                            <h6
+                                                class="card-title font-weight-bolder size-21 mb-4"
+                                            >
+                                                Corporis voluptates sit
+                                            </h6>
+                                            <p
+                                                class="card-text text-muted size-14 lh-sm font-weight-normal"
+                                            >
+                                                Consequuntur sunt aut quasi enim
+                                                aliquam harum
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -326,25 +364,26 @@
                     </div>
                 </div>
 
-                <!-- End Why Us Section -->
+                <!-- Why Us Section End -->
 
                 <!-- ======= About Section ======= -->
 
-                <div id="about" class="about">
-                    <div class="container-fw p-0">
-                        <div class="row">
-                            <div class="col-md-5 mr-5">
-                                <img
-                                    src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80"
-                                    alt="About Us Photo"
-                                    class="h-100 w-100"
-                                />
-                            </div>
-                            <div class="col-md-6">
-                                <h2 class="mb-3">
+                <div class="container-fw py-5">
+                    <div class="row">
+                        <!-- About Section Image -->
+                        <div class="col-lg-5">
+                            <img
+                                src="https://source.unsplash.com/_N7I1JyPYJw/2400 × 3600"
+                            />
+                        </div>
+
+                        <!-- About Section Content -->
+                        <div class="col-lg-7">
+                            <div class="container">
+                                <h4 class="mb-3 font-weight-bold">
                                     Enim quis est voluptatibus aliquid
                                     consequatur fugiat
-                                </h2>
+                                </h4>
                                 <p class="mb-5">
                                     Esse voluptas cumque vl exercitationem.
                                     Reiciendis est hic accusamus. Non ipsam et
@@ -355,32 +394,17 @@
                                 </p>
                                 <div class="row mb-4">
                                     <div
-                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                        style="width: 65px; height: 65px;"
+                                        class="avatar avatar-lg bg-body border border-2 border-primary text-primary"
                                     >
-                                        <svg
-                                            width="2em"
-                                            height="2em"
-                                            viewBox="0 0 16 16"
-                                            class="bi bi-file-earmark-medical"
-                                            fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"
-                                            />
-                                            <path
-                                                d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M7 4a.5.5 0 0 1 .5.5v.634l.549-.317a.5.5 0 1 1 .5.866L8 6l.549.317a.5.5 0 1 1-.5.866L7.5 6.866V7.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L6 6l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V4.5A.5.5 0 0 1 7 4zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
-                                            />
-                                        </svg>
+                                        <i
+                                            class="icon ion-android-create size-24"
+                                        ></i>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Lorem Ipsum</h5>
-                                        <p>
+                                    <div class="col-md-11">
+                                        <h6 class="font-weight-bold size-18">
+                                            Lorem Ipsum
+                                        </h6>
+                                        <p class="size-16">
                                             Voluptatum deleniti atque corrupti
                                             quos dolores et quas molestias
                                             excepturi sint occaecati cupiditate
@@ -390,30 +414,17 @@
                                 </div>
                                 <div class="row mb-4">
                                     <div
-                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                        style="width: 65px; height: 65px;"
+                                        class="avatar avatar-lg bg-body border border-2 border-primary text-primary"
                                     >
-                                        <svg
-                                            width="2em"
-                                            height="2em"
-                                            viewBox="0 0 16 16"
-                                            class="bi bi-archive"
-                                            fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M2 5v7.5c0 .864.642 1.5 1.357 1.5h9.286c.715 0 1.357-.636 1.357-1.5V5h1v7.5c0 1.345-1.021 2.5-2.357 2.5H3.357C2.021 15 1 13.845 1 12.5V5h1z"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M5.5 7.5A.5.5 0 0 1 6 7h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zM15 2H1v2h14V2zM1 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"
-                                            />
-                                        </svg>
+                                        <i
+                                            class="icon ion-ios-paperplane size-32"
+                                        ></i>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Lorem Ipsum</h5>
-                                        <p>
+                                    <div class="col-md-11">
+                                        <h6 class="font-weight-bold size-18">
+                                            Lorem Ipsum
+                                        </h6>
+                                        <p class="size-16">
                                             Voluptatum deleniti atque corrupti
                                             quos dolores et quas molestias
                                             excepturi sint occaecati cupiditate
@@ -422,31 +433,21 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div
-                                        class="col-md-1 btn btn-outline-primary d-flex flex-column justify-content-center align-items-center rounded-circle mr-2"
-                                        style="width: 65px; height: 65px;"
-                                    >
-                                        <svg
-                                            width="2em"
-                                            height="2em"
-                                            viewBox="0 0 16 16"
-                                            class="bi bi-bar-chart-line"
-                                            fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg"
+                                    <div class="col-sm-2">
+                                        <div
+                                            class="avatar avatar-lg bg-body border border-2 border-primary text-primary"
                                         >
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5h-2v12h2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M0 14.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
-                                            />
-                                        </svg>
+                                            <i
+                                                class="icon ion-ios-people size-32"
+                                            ></i>
+                                        </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Lorem Ipsum</h5>
-                                        <p>
+
+                                    <div class="col-sm-10">
+                                        <h6 class="font-weight-bold size-18">
+                                            Lorem Ipsum
+                                        </h6>
+                                        <p class="size-16">
                                             Voluptatum deleniti atque corrupti
                                             quos dolores et quas molestias
                                             excepturi sint occaecati cupiditate
@@ -470,11 +471,14 @@
                                 <div
                                     class="d-flex flex-column align-items-center bg-white"
                                 >
-                                    <i
-                                        class="icon ion-android-cloud-done size-24 lh-sm rounded-circle bg-primary text-white text-center pt-2 mt-n4 mb-2"
-                                        style="width: 50px; height: 50px;"
-                                    ></i>
-                                    <h1>85</h1>
+                                    <div
+                                        class="avatar avatar-md bg-primary mx-auto mt-n4"
+                                    >
+                                        <i
+                                            class="icon ion-person size-28 text-white"
+                                        ></i>
+                                    </div>
+                                    <h1 class="font-weight-bolder my-2">85</h1>
                                     <p>Doctors</p>
                                 </div>
                             </div>
@@ -483,12 +487,15 @@
                                 <div
                                     class="d-flex flex-column align-items-center bg-white"
                                 >
-                                    <i
-                                        class="icon ion-android-cloud-done size-24 lh-sm rounded-circle bg-primary text-white text-center pt-2 mt-n4 mb-2"
-                                        style="width: 50px; height: 50px;"
-                                    ></i>
-                                    <h1>85</h1>
-                                    <p>Doctors</p>
+                                    <div
+                                        class="avatar avatar-md bg-primary mx-auto mt-n4"
+                                    >
+                                        <i
+                                            class="icon ion-email size-28 text-white"
+                                        ></i>
+                                    </div>
+                                    <h1 class="font-weight-bolder my-2">18</h1>
+                                    <p>Departments</p>
                                 </div>
                             </div>
 
@@ -496,12 +503,15 @@
                                 <div
                                     class="d-flex flex-column align-items-center bg-white"
                                 >
-                                    <i
-                                        class="icon ion-android-cloud-done size-24 lh-sm rounded-circle bg-primary text-white text-center pt-2 mt-n4 mb-2"
-                                        style="width: 50px; height: 50px;"
-                                    ></i>
-                                    <h1>85</h1>
-                                    <p>Doctors</p>
+                                    <div
+                                        class="avatar avatar-md bg-primary mx-auto mt-n4"
+                                    >
+                                        <i
+                                            class="icon ion-erlenmeyer-flask size-28 text-white"
+                                        ></i>
+                                    </div>
+                                    <h1 class="font-weight-bolder my-2">8</h1>
+                                    <p>Research Labs</p>
                                 </div>
                             </div>
 
@@ -509,12 +519,15 @@
                                 <div
                                     class="d-flex flex-column align-items-center bg-white"
                                 >
-                                    <i
-                                        class="icon ion-android-cloud-done size-24 lh-sm rounded-circle bg-primary text-white text-center pt-2 mt-n4 mb-2"
-                                        style="width: 50px; height: 50px;"
-                                    ></i>
-                                    <h1>85</h1>
-                                    <p>Doctors</p>
+                                    <div
+                                        class="avatar avatar-md bg-primary mx-auto mt-n4"
+                                    >
+                                        <i
+                                            class="icon ion-trophy size-24 text-white"
+                                        ></i>
+                                    </div>
+                                    <h1 class="font-weight-bolder my-2">150</h1>
+                                    <p>Awards</p>
                                 </div>
                             </div>
                         </div>
@@ -524,11 +537,15 @@
                 <!-- Counter Section End -->
 
                 <!-- ======= Services Section ======= -->
-                <div id="services" class="services container-fw">
+
+                <div id="services" class="container-fw">
                     <div class="container">
+                        <!-- Services Header -->
                         <div class="text-center mb-5">
-                            <h2>Services</h2>
-                            <hr class="hr-3 w-25 mx-auto bg-primary mb-4" />
+                            <h2 class="font-weight-bold">Services</h2>
+                            <hr
+                                class="hr-3 w-5 mx-auto bg-primary mb-4 o-100"
+                            />
                             <p>
                                 Magnam dolores commodi suscipit. Necessitatibus
                                 eius consequatur ex aliquid fuga eum quidem. Sit
@@ -540,110 +557,1599 @@
                         </div>
 
                         <div class="row">
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch"
-                            >
-                                <div
-                                    class="d-flex flex-column align-items-center border p-5"
-                                >
-                                    <i
-                                        class="icon ion-android-alarm-clock size-35 justify-self-center bg-primary text-white mb-4 rounded shadow-sm"
-                                        style="
-                                            width: 70px;
-                                            height: 70px;
-                                            padding: 0 1.2rem;
-                                        "
-                                    ></i>
+                            <!-- Sevices Card 1 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-android-create size-24"
+                                            ></i>
+                                        </div>
 
-                                    <h5 class="font-weight-normal">
-                                        Lorem Ipsum
-                                    </h5>
-                                    <p class="text-center">
-                                        Voluptatum deleniti atque corrupti quos
-                                        dolores et quas molestias excepturi
-                                    </p>
+                                        <h5 class="font-weight-bolder my-3">
+                                            Lorem Ipsum
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            Voluptatum deleniti atque corrupti
+                                            quos dolores et quas molestias
+                                            excepturi
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-                            >
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <i class="icofont-drug"></i>
+                            <!-- Services Card 2 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-folder size-24"
+                                            ></i>
+                                        </div>
+
+                                        <h5 class="font-weight-bolder my-3">
+                                            Sed ut perspiciatis
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            Duis aute irure dolor in
+                                            reprehenderit in voluptate velit
+                                            esse cillum dolore
+                                        </p>
                                     </div>
-                                    <h4><a href="">Sed ut perspiciatis</a></h4>
-                                    <p>
-                                        Duis aute irure dolor in reprehenderit
-                                        in voluptate velit esse cillum dolore
-                                    </p>
                                 </div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-                            >
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <i class="icofont-dna-alt-2"></i>
+                            <!-- Services Card 3 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-gear-b size-24"
+                                            ></i>
+                                        </div>
+
+                                        <h5 class="font-weight-bolder my-3">
+                                            Magni Dolores
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            Excepteur sint occaecat cupidatat
+                                            non proident, sunt in culpa qui
+                                            officia
+                                        </p>
                                     </div>
-                                    <h4><a href="">Magni Dolores</a></h4>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia
-                                    </p>
                                 </div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-                            >
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <i class="icofont-heartbeat"></i>
+                            <!-- Services Card 4 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-cloud size-24"
+                                            ></i>
+                                        </div>
+
+                                        <h5 class="font-weight-bolder my-3">
+                                            Nemo Enim
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            At vero eos et accusamus et iusto
+                                            odio dignissimos ducimus qui
+                                            blanditiis
+                                        </p>
                                     </div>
-                                    <h4><a href="">Nemo Enim</a></h4>
-                                    <p>
-                                        At vero eos et accusamus et iusto odio
-                                        dignissimos ducimus qui blanditiis
-                                    </p>
                                 </div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-                            >
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <i class="icofont-disabled"></i>
+                            <!-- Services Card 5 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-medkit size-24"
+                                            ></i>
+                                        </div>
+
+                                        <h5 class="font-weight-bolder my-3">
+                                            Dele cardo
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            Quis consequatur saepe eligendi
+                                            voluptatem consequatur dolor
+                                            consequuntur
+                                        </p>
                                     </div>
-                                    <h4><a href="">Dele cardo</a></h4>
-                                    <p>
-                                        Quis consequatur saepe eligendi
-                                        voluptatem consequatur dolor
-                                        consequuntur
-                                    </p>
                                 </div>
                             </div>
 
-                            <div
-                                class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-                            >
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <i class="icofont-autism"></i>
+                            <!-- Services Card 6 -->
+                            <div class="col-md-4">
+                                <div class="card py-5 height-300 mb-4">
+                                    <div
+                                        class="card-body d-flex flex-column align-items-center"
+                                    >
+                                        <div
+                                            class="avatar avatar-lg bg-body rounded bg-primary text-white"
+                                        >
+                                            <i
+                                                class="icon ion-clipboard size-24"
+                                            ></i>
+                                        </div>
+
+                                        <h5 class="font-weight-bolder my-3">
+                                            Divera don
+                                        </h5>
+                                        <p class="text-center lh-sm size-16">
+                                            Modi nostrum vel laborum. Porro
+                                            fugit error sit minus sapiente sit
+                                            aspernatur
+                                        </p>
                                     </div>
-                                    <h4><a href="">Divera don</a></h4>
-                                    <p>
-                                        Modi nostrum vel laborum. Porro fugit
-                                        error sit minus sapiente sit aspernatur
-                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- End Services Section -->
+
+                <!-- ======= Appointment Section ======= -->
+
+                <div id="appointment" class="container-fw bg-secondary">
+                    <div class="container">
+                        <!-- Appointment Header -->
+                        <div class="text-center mb-5">
+                            <h2 class="font-weight-bold">
+                                Make an Appointment
+                            </h2>
+                            <hr
+                                class="hr-3 w-5 mx-auto bg-primary mb-4 o-100"
+                            />
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus
+                                eius consequatur ex aliquid fuga eum quidem. Sit
+                                sint consectetur velit. Quisquam quos quisquam
+                                cupiditate. Et nemo qui impedit suscipit alias
+                                ea. Quia fugiat sit in iste officiis commodi
+                                quidem hic quas.
+                            </p>
+                        </div>
+
+                        <!-- Appointment Form -->
+                        <div class="row justify-content-between mb-5">
+                            <div class="col-md-4">
+                                <input
+                                    class="form-control shadow-none border-1"
+                                    type="text"
+                                    placeholder="Your Name"
+                                />
+                            </div>
+                            <div class="col-md-4">
+                                <input
+                                    class="form-control shadow-none border-1"
+                                    type="email"
+                                    placeholder="Your Email"
+                                />
+                            </div>
+                            <div class="col-md-4">
+                                <input
+                                    class="form-control shadow-none border-1"
+                                    type="text"
+                                    placeholder="Your Phone"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between mb-5">
+                            <div class="col-md-4">
+                                <input
+                                    class="form-control shadow-none border-1"
+                                    type="date"
+                                    placeholder="Appointment Date"
+                                />
+                            </div>
+
+                            <div class="col-md-4">
+                                <select
+                                    name="department"
+                                    class="col-md-3 form-select shadow-none border-1"
+                                    aria-label="Default select example"
+                                >
+                                    <option selected>Select Department</option>
+                                    <option value="dept-1">Department 1</option>
+                                    <option value="dept-2">Department 2</option>
+                                    <option value="dept-3">Department 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select
+                                    name="department"
+                                    class="col-md-3 form-select shadow-none border-1"
+                                    aria-label="Default select example"
+                                >
+                                    <option selected>Select Department</option>
+                                    <option value="dept-1">Department 1</option>
+                                    <option value="dept-2">Department 2</option>
+                                    <option value="dept-3">Department 3</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between mb-5">
+                            <div class="col-md-12">
+                                <textarea
+                                    class="form-control shadow-none border-1"
+                                    rows="4"
+                                    placeholder="Message(Optional)"
+                                >
+                                </textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <button
+                                class="col-md-3 btn btn-primary rounded-pill text-white"
+                            >
+                                Make an Appointment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Appointment Section -->
+
+                <!-- ======= Departments Section ======= -->
+
+                <div id="departments" class="container-fw">
+                    <div class="container">
+                        <!-- Departments Header -->
+                        <div class="text-center mb-5">
+                            <h2 class="font-weight-bold">Departments</h2>
+                            <hr
+                                class="hr-3 w-5 mx-auto bg-primary mb-4 o-100"
+                            />
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus
+                                eius consequatur ex aliquid fuga eum quidem. Sit
+                                sint consectetur velit. Quisquam quos quisquam
+                                cupiditate. Et nemo qui impedit suscipit alias
+                                ea. Quia fugiat sit in iste officiis commodi
+                                quidem hic quas.
+                            </p>
+                        </div>
+
+                        <!-- Department Toggle -->
+                        <div class="row">
+                            <!-- Department Toggle Menu -->
+                            <ul
+                                class="col-md-3 list-group border-right border-primary list-group-flush"
+                                id="myTab"
+                                role="tablist"
+                            >
+                                <li
+                                    class="list-group-item border-0"
+                                    role="presentation"
+                                >
+                                    <a
+                                        class="nav-link active text-gray-dark"
+                                        id="cardiology-tab"
+                                        data-toggle="tab"
+                                        href="#cardiology"
+                                        role="tab"
+                                        aria-controls="cardiology"
+                                        aria-selected="true"
+                                        >Cardiology</a
+                                    >
+                                </li>
+                                <li
+                                    class="list-group-item border-0"
+                                    role="presentation"
+                                >
+                                    <a
+                                        class="nav-link text-gray-dark"
+                                        id="neurology-tab"
+                                        data-toggle="tab"
+                                        href="#neurology"
+                                        role="tab"
+                                        aria-controls="neurology"
+                                        aria-selected="false"
+                                        >Neurology</a
+                                    >
+                                </li>
+                                <li
+                                    class="list-group-item border-0"
+                                    role="presentation"
+                                >
+                                    <a
+                                        class="nav-link text-gray-dark"
+                                        id="hepatology-tab"
+                                        data-toggle="tab"
+                                        href="#hepatology"
+                                        role="tab"
+                                        aria-controls="hepatology"
+                                        aria-selected="false"
+                                        >Hepatology</a
+                                    >
+                                </li>
+                                <li
+                                    class="list-group-item border-0"
+                                    role="presentation"
+                                >
+                                    <a
+                                        class="nav-link text-gray-dark"
+                                        id="pediatrics-tab"
+                                        data-toggle="tab"
+                                        href="#pediatrics"
+                                        role="tab"
+                                        aria-controls="pediatrics"
+                                        aria-selected="false"
+                                        >Pediatrics</a
+                                    >
+                                </li>
+                                <li
+                                    class="list-group-item border-0"
+                                    role="presentation"
+                                >
+                                    <a
+                                        class="nav-link text-gray-dark"
+                                        id="eyecare-tab"
+                                        data-toggle="tab"
+                                        href="#eyecare"
+                                        role="tab"
+                                        aria-controls="eyecare"
+                                        aria-selected="false"
+                                        >Eyecare</a
+                                    >
+                                </li>
+                            </ul>
+
+                            <!-- Department Toggle Details -->
+                            <div
+                                class="col-md-9 tab-content pl-5"
+                                id="myTabContent"
+                            >
+                                <!-- Department Toggle Details 1 -->
+                                <div
+                                    class="tab-pane fade show active"
+                                    id="cardiology"
+                                    role="tabpanel"
+                                    aria-labelledby="cardiology-tab"
+                                >
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h4 class="font-weight-normal mb-4">
+                                                Cardiology
+                                            </h4>
+                                            <p class="text-muted font-italic">
+                                                Qui laudantium consequatur
+                                                laborum sit qui ad sapiente dila
+                                                parde sonata raqer a videna
+                                                mareta paulona marka
+                                            </p>
+                                            <p class="text-muted">
+                                                Et nobis maiores eius.
+                                                Voluptatibus ut enim blanditiis
+                                                atque harum sint. Laborum eos
+                                                ipsum ipsa odit magni. Incidunt
+                                                hic ut molestiae aut qui. Est
+                                                repellat minima eveniet eius et
+                                                quis magni nihil. Consequatur
+                                                dolorem quaerat quos qui
+                                                similique accusamus nostrum rem
+                                                vero
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                                alt="Cardiology Image"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Department Toggle Details 2 -->
+                                <div
+                                    class="tab-pane fade"
+                                    id="neurology"
+                                    role="tabpanel"
+                                    aria-labelledby="neurology-tab"
+                                >
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h4 class="font-weight-normal mb-4">
+                                                Et blanditiis nemo veritatis
+                                                excepturi
+                                            </h4>
+                                            <p class="text-muted font-italic">
+                                                Qui laudantium consequatur
+                                                laborum sit qui ad sapiente dila
+                                                parde sonata raqer a videna
+                                                mareta paulona marka
+                                            </p>
+                                            <p class="text-muted">
+                                                Et nobis maiores eius.
+                                                Voluptatibus ut enim blanditiis
+                                                atque harum sint. Laborum eos
+                                                ipsum ipsa odit magni. Incidunt
+                                                hic ut molestiae aut qui. Est
+                                                repellat minima eveniet eius et
+                                                quis magni nihil. Consequatur
+                                                dolorem quaerat quos qui
+                                                similique accusamus nostrum rem
+                                                vero
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                                alt="Cardiology Image"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Department Toggle Details 3 -->
+                                <div
+                                    class="tab-pane fade"
+                                    id="hepatology"
+                                    role="tabpanel"
+                                    aria-labelledby="hepatology-tab"
+                                >
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h4 class="font-weight-normal mb-4">
+                                                Impedit facilis occaecati odio
+                                                neque aperiam sit
+                                            </h4>
+                                            <p class="text-muted font-italic">
+                                                Qui laudantium consequatur
+                                                laborum sit qui ad sapiente dila
+                                                parde sonata raqer a videna
+                                                mareta paulona marka
+                                            </p>
+                                            <p class="text-muted">
+                                                Et nobis maiores eius.
+                                                Voluptatibus ut enim blanditiis
+                                                atque harum sint. Laborum eos
+                                                ipsum ipsa odit magni. Incidunt
+                                                hic ut molestiae aut qui. Est
+                                                repellat minima eveniet eius et
+                                                quis magni nihil. Consequatur
+                                                dolorem quaerat quos qui
+                                                similique accusamus nostrum rem
+                                                vero
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                                alt="Cardiology Image"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Department Toggle Details 4 -->
+                                <div
+                                    class="tab-pane fade"
+                                    id="pediatrics"
+                                    role="tabpanel"
+                                    aria-labelledby="pediatrics-tab"
+                                >
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h4 class="font-weight-normal mb-4">
+                                                Fuga dolores inventore
+                                                laboriosam ut est accusamus
+                                                laboriosam dolore
+                                            </h4>
+                                            <p class="text-muted font-italic">
+                                                Qui laudantium consequatur
+                                                laborum sit qui ad sapiente dila
+                                                parde sonata raqer a videna
+                                                mareta paulona marka
+                                            </p>
+                                            <p class="text-muted">
+                                                Et nobis maiores eius.
+                                                Voluptatibus ut enim blanditiis
+                                                atque harum sint. Laborum eos
+                                                ipsum ipsa odit magni. Incidunt
+                                                hic ut molestiae aut qui. Est
+                                                repellat minima eveniet eius et
+                                                quis magni nihil. Consequatur
+                                                dolorem quaerat quos qui
+                                                similique accusamus nostrum rem
+                                                vero
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1486049125644-f35e226a5e14?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                                alt="Cardiology Image"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Department Toggle Details 5 -->
+                                <div
+                                    class="tab-pane fade"
+                                    id="eyecare"
+                                    role="tabpanel"
+                                    aria-labelledby="eyecare-tab"
+                                >
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h4 class="font-weight-normal mb-4">
+                                                Est eveniet ipsam sindera pad
+                                                rone matrelat sando reda
+                                            </h4>
+                                            <p class="text-muted font-italic">
+                                                Qui laudantium consequatur
+                                                laborum sit qui ad sapiente dila
+                                                parde sonata raqer a videna
+                                                mareta paulona marka
+                                            </p>
+                                            <p class="text-muted">
+                                                Et nobis maiores eius.
+                                                Voluptatibus ut enim blanditiis
+                                                atque harum sint. Laborum eos
+                                                ipsum ipsa odit magni. Incidunt
+                                                hic ut molestiae aut qui. Est
+                                                repellat minima eveniet eius et
+                                                quis magni nihil. Consequatur
+                                                dolorem quaerat quos qui
+                                                similique accusamus nostrum rem
+                                                vero
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1542868727-5b8fcd21495e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                                alt="Cardiology Image"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Department Section End -->
+
+                <!-- ======= Doctors Section ======= -->
+
+                <div id="doctors" class="container-fw">
+                    <div class="container">
+                        <!-- Doctors Section Header -->
+                        <div class="text-center mb-5">
+                            <h2 class="font-weight-bold">Doctors</h2>
+                            <hr
+                                class="hr-3 w-5 mx-auto bg-primary mb-4 o-100"
+                            />
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus
+                                eius consequatur ex aliquid fuga eum quidem. Sit
+                                sint consectetur velit. Quisquam quos quisquam
+                                cupiditate. Et nemo qui impedit suscipit alias
+                                ea. Quia fugiat sit in iste officiis commodi
+                                quidem hic quas.
+                            </p>
+                        </div>
+
+                        <!-- Doctor Cards -->
+                        <div class="row justify-content-between">
+                            <!-- Doctor Card 1 -->
+                            <div class="col-md-6 mb-5">
+                                <div class="card shadow border-0">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 pl-5">
+                                            <img
+                                                class="size-42 avatar avatar-4xl mx-auto"
+                                                src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                            />
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6
+                                                    class="font-weight-bolder mb-0"
+                                                >
+                                                    Walter White
+                                                </h6>
+                                                <p class="size-16 m-0">
+                                                    Chief Medical Officer
+                                                </p>
+                                                <hr
+                                                    class="hr-2 w-25 bg-primary my-2"
+                                                />
+                                                <p class="lh-sm size-14">
+                                                    Explicabo voluptatem
+                                                    mollitia et repellat qui
+                                                    dolorum quasi
+                                                </p>
+
+                                                <!-- Social Icons -->
+                                                <div
+                                                    class="social-links social-links-colourful"
+                                                >
+                                                    <span
+                                                        ><a
+                                                            href="https://twitter.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-twitter"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://facebook.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-facebook"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://instagram.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-instagram"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://linkedin.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-linkedin"
+                                                            ></i> </a
+                                                    ></span>
+                                                </div>
+                                                <!-- Social Icons End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Doctor Card 2 -->
+                            <div class="col-md-6 mb-5">
+                                <div class="card shadow border-0">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 pl-5">
+                                            <img
+                                                class="size-42 avatar avatar-4xl mx-auto"
+                                                src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                            />
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6
+                                                    class="font-weight-bolder mb-0"
+                                                >
+                                                    Walter White
+                                                </h6>
+                                                <p class="size-16 m-0">
+                                                    Chief Medical Officer
+                                                </p>
+                                                <hr
+                                                    class="hr-2 w-25 bg-primary my-2"
+                                                />
+                                                <p class="lh-sm size-14">
+                                                    Explicabo voluptatem
+                                                    mollitia et repellat qui
+                                                    dolorum quasi
+                                                </p>
+
+                                                <!-- Social Icons -->
+                                                <div
+                                                    class="social-links social-links-colourful"
+                                                >
+                                                    <span
+                                                        ><a
+                                                            href="https://twitter.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-twitter"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://facebook.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-facebook"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://instagram.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-instagram"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://linkedin.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-linkedin"
+                                                            ></i> </a
+                                                    ></span>
+                                                </div>
+                                                <!-- Social Icons End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Doctor Card 3 -->
+                            <div class="col-md-6 mb-5">
+                                <div class="card shadow border-0">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 pl-5">
+                                            <img
+                                                class="size-42 avatar avatar-4xl mx-auto"
+                                                src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                            />
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6
+                                                    class="font-weight-bolder mb-0"
+                                                >
+                                                    Walter White
+                                                </h6>
+                                                <p class="size-16 m-0">
+                                                    Chief Medical Officer
+                                                </p>
+                                                <hr
+                                                    class="hr-2 w-25 bg-primary my-2"
+                                                />
+                                                <p class="lh-sm size-14">
+                                                    Explicabo voluptatem
+                                                    mollitia et repellat qui
+                                                    dolorum quasi
+                                                </p>
+
+                                                <!-- Social Icons -->
+                                                <div
+                                                    class="social-links social-links-colourful"
+                                                >
+                                                    <span
+                                                        ><a
+                                                            href="https://twitter.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-twitter"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://facebook.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-facebook"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://instagram.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-instagram"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://linkedin.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-linkedin"
+                                                            ></i> </a
+                                                    ></span>
+                                                </div>
+                                                <!-- Social Icons End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Doctor Card 4 -->
+                            <div class="col-md-6 mb-5">
+                                <div class="card shadow border-0">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 pl-5">
+                                            <img
+                                                class="size-42 avatar avatar-4xl mx-auto"
+                                                src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                            />
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6
+                                                    class="font-weight-bolder mb-0"
+                                                >
+                                                    Walter White
+                                                </h6>
+                                                <p class="size-16 m-0">
+                                                    Chief Medical Officer
+                                                </p>
+                                                <hr
+                                                    class="hr-2 w-25 bg-primary my-2"
+                                                />
+                                                <p class="lh-sm size-14">
+                                                    Explicabo voluptatem
+                                                    mollitia et repellat qui
+                                                    dolorum quasi
+                                                </p>
+
+                                                <!-- Social Icons -->
+                                                <div
+                                                    class="social-links social-links-colourful"
+                                                >
+                                                    <span
+                                                        ><a
+                                                            href="https://twitter.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-twitter"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://facebook.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-facebook"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://instagram.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-instagram"
+                                                            ></i> </a
+                                                    ></span>
+                                                    <span
+                                                        ><a
+                                                            href="https://linkedin.com/"
+                                                            class="avatar avatar-md social-link bg-gray"
+                                                        >
+                                                            <i
+                                                                class="icon ion-social-linkedin"
+                                                            ></i> </a
+                                                    ></span>
+                                                </div>
+                                                <!-- Social Icons End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Doctors Cards End -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Doctors Section -->
+
+                <!-- ======= FAQ Section ======= -->
+
+                <div id="faq" class="container-fw bg-secondary">
+                    <div class="container">
+                        <!-- FAQ Section Header -->
+                        <div class="text-center mb-5">
+                            <h2 class="font-weight-bold">
+                                Frequently Asked Questions
+                            </h2>
+                            <hr
+                                class="hr-3 w-5 mx-auto bg-primary mb-4 o-100"
+                            />
+                            <p>
+                                Magnam dolores commodi suscipit. Necessitatibus
+                                eius consequatur ex aliquid fuga eum quidem. Sit
+                                sint consectetur velit. Quisquam quos quisquam
+                                cupiditate. Et nemo qui impedit suscipit alias
+                                ea. Quia fugiat sit in iste officiis commodi
+                                quidem hic quas.
+                            </p>
+                        </div>
+
+                        <div
+                            class="accordion w-75 mx-auto"
+                            id="accordionExample"
+                        >
+                            <!-- FAQ Card 1 -->
+                            <div class="card mb-3 border-0">
+                                <div
+                                    class="card-header bg-white text-hover-primary border-gray-200"
+                                    id="headingOne"
+                                >
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                        data-toggle="collapse"
+                                        data-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                    >
+                                        <div class="d-flex align-items-center">
+                                            <i
+                                                class="icon ion-ios-help-outline text-primary mr-3 size-24"
+                                            ></i>
+                                            <span>
+                                                Ipsum has been the industry's
+                                                standard dummy text ever since
+                                                the 1500s
+                                            </span>
+                                        </div>
+                                        <i
+                                            class="icon ion-chevron-down mr-2"
+                                        ></i>
+                                    </div>
+                                </div>
+
+                                <div
+                                    id="collapseOne"
+                                    class="collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-parent="#accordionExample"
+                                >
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Card 2 -->
+                            <div class="card mb-3 border-0">
+                                <div
+                                    class="card-header bg-white text-hover-primary border-gray-200"
+                                    id="headingTwo"
+                                >
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="true"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        <div class="d-flex align-items-center">
+                                            <i
+                                                class="icon ion-ios-help-outline text-primary mr-3 size-24"
+                                            ></i>
+                                            <span
+                                                >Lorem Ipsum passages, and more
+                                                recently with desktop
+                                                publishing</span
+                                            >
+                                        </div>
+                                        <i
+                                            class="icon ion-chevron-down mr-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample"
+                                >
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Card 3 -->
+                            <div class="card mb-3 border-0">
+                                <div
+                                    class="card-header bg-white text-hover-primary border-gray-200"
+                                    id="headingThree"
+                                >
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                        data-toggle="collapse"
+                                        data-target="#collapseThree"
+                                        aria-expanded="true"
+                                        aria-controls="collapseThree"
+                                    >
+                                        <div class="d-flex align-items-center">
+                                            <i
+                                                class="icon ion-ios-help-outline text-primary mr-3 size-24"
+                                            ></i>
+                                            <span
+                                                >It is a long established fact
+                                                that a reader will be distracted
+                                                by the readable content</span
+                                            >
+                                        </div>
+                                        <i
+                                            class="icon ion-chevron-down mr-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div
+                                    id="collapseThree"
+                                    class="collapse"
+                                    aria-labelledby="headingThree"
+                                    data-parent="#accordionExample"
+                                >
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Card 4 -->
+                            <div class="card mb-3 border-0">
+                                <div
+                                    class="card-header bg-white text-hover-primary border-gray-200"
+                                    id="headingFour"
+                                >
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                        data-toggle="collapse"
+                                        data-target="#collapseFour"
+                                        aria-expanded="true"
+                                        aria-controls="collapseFour"
+                                    >
+                                        <div class="d-flex align-items-center">
+                                            <i
+                                                class="icon ion-ios-help-outline text-primary mr-3 size-24"
+                                            ></i>
+                                            <span
+                                                >Various versions have evolved
+                                                over the years, sometimes by
+                                                accident</span
+                                            >
+                                        </div>
+                                        <i
+                                            class="icon ion-chevron-down mr-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div
+                                    id="collapseFour"
+                                    class="collapse"
+                                    aria-labelledby="headingFour"
+                                    data-parent="#accordionExample"
+                                >
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Card 5 -->
+                            <div class="card mb-3 border-0">
+                                <div
+                                    class="card-header bg-white text-hover-primary border-gray-200"
+                                    id="headingFive"
+                                >
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                        data-toggle="collapse"
+                                        data-target="#collapseFive"
+                                        aria-expanded="true"
+                                        aria-controls="collapseFive"
+                                    >
+                                        <div class="d-flex align-items-center">
+                                            <i
+                                                class="icon ion-ios-help-outline text-primary mr-3 size-24"
+                                            ></i>
+                                            <span
+                                                >Contrary to popular belief,
+                                                Lorem Ipsum is not simply random
+                                                text.</span
+                                            >
+                                        </div>
+                                        <i
+                                            class="icon ion-chevron-down mr-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div
+                                    id="collapseFive"
+                                    class="collapse"
+                                    aria-labelledby="headingFive"
+                                    data-parent="#accordionExample"
+                                >
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section End -->
+
+                <!-- ======= Testimonials Section ======= -->
+
+                <div id="testimonials" class="container-fw">
+                    <div class="container my-5">
+                        <div class="row">
+                            <!-- Testimonial Card 1 -->
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow py-4">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-3 ml-n5">
+                                                <img
+                                                    src="https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                                    alt=""
+                                                    class="rounded width-80 height-80"
+                                                />
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h6 class="font-weight-bolder">
+                                                    John Larson
+                                                </h6>
+                                                <p
+                                                    class="text-muted size-16 my-2"
+                                                >
+                                                    Ceo & Founder
+                                                </p>
+
+                                                <p
+                                                    class="lh-xs font-italic text-muted"
+                                                >
+                                                    <i
+                                                        class="icon ion-quote size-24 mr-3 text-muted"
+                                                    ></i>
+                                                    Lorem Ipsum is simply dummy
+                                                    text of the printing and
+                                                    typesetting industry.
+                                                    <i
+                                                        class="icon ion-quote size-24 ml-3 text-muted"
+                                                    ></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial Card 2 -->
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow py-4">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-3 ml-n5">
+                                                <img
+                                                    src="https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                                    alt=""
+                                                    class="rounded width-80 height-80"
+                                                />
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h6 class="font-weight-bolder">
+                                                    John Larson
+                                                </h6>
+                                                <p
+                                                    class="text-muted size-16 my-2"
+                                                >
+                                                    Ceo & Founder
+                                                </p>
+
+                                                <p
+                                                    class="lh-xs font-italic text-muted"
+                                                >
+                                                    <i
+                                                        class="icon ion-quote size-24 mr-3 text-muted"
+                                                    ></i>
+                                                    Lorem Ipsum is simply dummy
+                                                    text of the printing and
+                                                    typesetting industry.
+                                                    <i
+                                                        class="icon ion-quote size-24 ml-3 text-muted"
+                                                    ></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Card End -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials Section End -->
+
+                <!-- ======= Gallery Section ======= -->
+
+                <div id="gallery" class="container-fw">
+                    <!-- Gallery Section Header -->
+                    <div class="text-center mb-5 w-75 mx-auto">
+                        <h2 class="font-weight-bold">Gallery</h2>
+                        <hr class="hr-3 w-5 mx-auto bg-primary mb-4 o-100" />
+                        <p>
+                            Magnam dolores commodi suscipit. Necessitatibus eius
+                            consequatur ex aliquid fuga eum quidem. Sit sint
+                            consectetur velit. Quisquam quos quisquam
+                            cupiditate. Et nemo qui impedit suscipit alias ea.
+                            Quia fugiat sit in iste officiis commodi quidem hic
+                            quas.
+                        </p>
+                    </div>
+
+                    <!-- Gallery Section Photos -->
+                    <div class="row">
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+
+                        <figure class="col-md-3 pr-1 mb-0">
+                            <a
+                                href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg"
+                                data-size="1600x1067"
+                            >
+                                <img
+                                    alt="picture"
+                                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                                    class="img-fluid"
+                                />
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Gallery Section End -->
+
+                <!-- ======= Contact Section ======= -->
+
+                <div id="contact" class="container-fw">
+                    <!-- Contact Section Header -->
+                    <div class="text-center mb-5 w-75 mx-auto">
+                        <h2 class="font-weight-bold">Contact</h2>
+                        <hr class="hr-3 w-5 mx-auto bg-primary mb-4 o-100" />
+                        <p>
+                            Magnam dolores commodi suscipit. Necessitatibus eius
+                            consequatur ex aliquid fuga eum quidem. Sit sint
+                            consectetur velit. Quisquam quos quisquam
+                            cupiditate. Et nemo qui impedit suscipit alias ea.
+                            Quia fugiat sit in iste officiis commodi quidem hic
+                            quas.
+                        </p>
+                    </div>
+
+                    <!-- Contact Map -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--Google map-->
+                            <div id="map-container-google-1">
+                                <iframe
+                                    class="w-100"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d443087.54862421425!2d-95.68148042889146!3d29.817478217325778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1597866470469!5m2!1sen!2sin"
+                                    height="400px"
+                                    frameborder="0"
+                                    style="border: 0;"
+                                    allowfullscreen=""
+                                    aria-hidden="false"
+                                    tabindex="0"
+                                ></iframe>
+                            </div>
+
+                            <!--Google Maps-->
+                        </div>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div class="container mt-5">
+                        <div class="row">
+                            <!-- Contact Info -->
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i
+                                            class="icon ion-location size-32 justify-self-center bg-secondary text-primary mb-4 rounded-circle shadow-sm"
+                                            style="padding: 0 1rem;"
+                                        ></i>
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <h4>Location:</h4>
+                                        <p class="muted">
+                                            A108 Adam Street, New York, NY
+                                            535022
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i
+                                            class="icon ion-email size-32 justify-self-center bg-secondary text-primary mb-4 rounded-circle shadow-sm"
+                                            style="padding: 0 0.7rem;"
+                                        ></i>
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <h4>Email:</h4>
+                                        <p class="muted">
+                                            info@example.com
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i
+                                            class="icon ion-android-call size-32 justify-self-center bg-secondary text-primary mb-4 rounded-circle shadow-sm"
+                                            style="padding: 0 0.7rem;"
+                                        ></i>
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <h4>Call:</h4>
+                                        <p class="muted">
+                                            +1 5589 55488 55s
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Contact Form -->
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <input
+                                            class="form-control shadow-none border-1"
+                                            type="text"
+                                            placeholder="Your Name"
+                                        />
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <input
+                                            class="form-control shadow-none border-1"
+                                            type="email"
+                                            placeholder="Your Email"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-md-12">
+                                        <input
+                                            class="form-control shadow-none border-1"
+                                            type="text"
+                                            placeholder="Subject"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-md-12">
+                                        <textarea
+                                            class="form-control shadow-none border-1"
+                                            rows="4"
+                                            placeholder="Message"
+                                        ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <button
+                                        class="col-md-3 btn btn-primary text-white rounded-pill"
+                                    >
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section End -->
             </section>
 
             <!-- ======= Footer Section ======= -->
